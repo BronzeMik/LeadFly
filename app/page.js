@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { Bot, Mail, List, Filter, BarChart, Globe } from 'lucide-react';
 import Image from 'next/image';
-
+import Script from 'next/script';
 export default function Home() {
   
   return (
@@ -146,7 +146,10 @@ export default function Home() {
           <p>© {new Date().getFullYear()} LeadFly. All rights reserved.</p>
         </div>
       </footer>
-      <script src='/background.js'></script>
+      <Script
+        src='/background.js'
+        strategy='afterInteractive'
+      />
     </div>
   );
 }
