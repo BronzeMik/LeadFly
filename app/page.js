@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import {Bot, Mail, List, Filter, BarChart, Globe } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       </Head>
       <header className="bg-white text-primary px-6 border-b-2 border-b-slate-50 shadow-md fixed top-0">
         <div className="container mx-auto flex justify-between items-center px-4">
-          <img src='/leadflylogo.png' alt='LeadFly Logo' className='w-[20%]'/>
+          <Image src='/leadflylogo.png' alt='LeadFly Logo' className='w-[20%]'/>
           <nav>
             <a href="#features" className="bg-accent border-2 text-white px-4 py-2 rounded hover:bg-white hover:text-accent hover:border-accent">Features</a>
             <a href="http://app.leadflyapp.com" target='_blank' className="bg-accent border-2 text-white px-4 py-2 rounded hover:bg-white hover:text-accent hover:border-accent">START FREE TRIAL</a>
@@ -30,7 +31,7 @@ export default function Home() {
             <a href="http://app.leadflyapp.com" target='_blank' className="bg-accent border-2 text-white px-4 py-2 rounded hover:bg-white hover:text-accent hover:border-accent">START FREE TRIAL</a>
           </div>
           <div>
-            <img src='/hero-img.png' />
+            <Image src='/hero-img.png' />
           </div>
         </div>
           
