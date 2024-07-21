@@ -63,7 +63,7 @@ export default function Home() {
             <div className="p-6 border rounded-lg text-center bg-white shadow-md">
               <BarChart className="h-12 w-12 text-primary mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-accent mb-4">Lead Tracking</h3>
-              <p className="text-gray-700">Keep track of your leads' journey and monitor their interactions to tailor your follow-ups effectively.</p>
+              <p className="text-gray-700">Keep track of your leads journey and monitor their interactions to tailor your follow-ups effectively.</p>
             </div>
             <div className="p-6 border rounded-lg text-center bg-white shadow-md">
               <Globe className="h-12 w-12 text-primary mx-auto mb-4" />
@@ -126,7 +126,7 @@ export default function Home() {
               <p className="text-gray-700">LeadFly is a comprehensive lead generation SaaS platform designed to automate and optimize your marketing efforts across various channels.</p>
             </div>
             <div className="border-b mb-6">
-              <h3 className="text-xl font-bold text-accent mb-2">How does LeadFly's LinkedIn automation work?</h3>
+              <h3 className="text-xl font-bold text-accent mb-2">How does LeadFly&apos;s LinkedIn automation work?</h3>
               <p className="text-gray-700">Our LinkedIn automation tool helps you connect with potential leads automatically by sending personalized connection requests and follow-ups.</p>
             </div>
             <div className="border-b mb-6">
