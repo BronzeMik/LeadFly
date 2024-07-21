@@ -10,9 +10,9 @@ export default function Home() {
         <meta name="description" content="LeadFly - Soar Above with Smarter Leads" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="bg-white text-primary px-6 border-b-2 border-b-slate-50 shadow-md fixed top-0">
+      <header className="bg-white w-full text-primary px-6 py-2 border-b-2 border-b-slate-50 shadow-md fixed top-0">
         <div className="container mx-auto flex justify-between items-center px-4">
-          <Image src='/leadflylogo.png' alt='LeadFly Logo' className='w-[20%]'/>
+          <Image src='/leadflylogo.png' alt='LeadFly Logo' width={200} height={100}/>
           <nav>
             <a href="#features" className="bg-accent border-2 text-white px-4 py-2 rounded hover:bg-white hover:text-accent hover:border-accent">Features</a>
             <a href="http://app.leadflyapp.com" target='_blank' className="bg-accent border-2 text-white px-4 py-2 rounded hover:bg-white hover:text-accent hover:border-accent">START FREE TRIAL</a>
@@ -31,7 +31,7 @@ export default function Home() {
             <a href="http://app.leadflyapp.com" target='_blank' className="bg-accent border-2 text-white px-4 py-2 rounded hover:bg-white hover:text-accent hover:border-accent">START FREE TRIAL</a>
           </div>
           <div>
-            <Image src='/hero-img.png' alt="LeadFly dashboard"/>
+            <Image src='/hero-img.png' alt="LeadFly dashboard" width={700} height={500}/>
           </div>
         </div>
           
@@ -101,17 +101,17 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-primary text-center mb-8">What Our Clients Say</h2>
           <div className="flex flex-col md:flex-row md:justify-between">
             <div className="p-6 border rounded-lg bg-white shadow-md mb-6 md:mb-0 md:w-1/3">
-              <p className="text-gray-700 mb-4">"LeadFly has transformed our lead generation strategy. The automation tools are incredibly effective, and our conversion rates have improved significantly!"</p>
+              <p className="text-gray-700 mb-4">LeadFly has transformed our lead generation strategy. The automation tools are incredibly effective, and our conversion rates have improved significantly!</p>
               <p className="font-semibold">Alex Johnson</p>
               <p className="text-gray-500">Marketing Director, TechCo</p>
             </div>
             <div className="p-6 border rounded-lg bg-white shadow-md mb-6 md:mb-0 md:w-1/3">
-              <p className="text-gray-700 mb-4">"The LeadFly platform is user-friendly and packed with features that have streamlined our sales process. Highly recommend it to any business looking to grow."</p>
+              <p className="text-gray-700 mb-4">The LeadFly platform is user-friendly and packed with features that have streamlined our sales process. Highly recommend it to any business looking to grow.</p>
               <p className="font-semibold">Sara Lee</p>
               <p className="text-gray-500">CEO, Innovate LLC</p>
             </div>
             <div className="p-6 border rounded-lg bg-white shadow-md md:w-1/3">
-              <p className="text-gray-700 mb-4">"Excellent customer support and a powerful set of tools. LeadFly has been a game-changer for our marketing efforts."</p>
+              <p className="text-gray-700 mb-4">Excellent customer support and a powerful set of tools. LeadFly has been a game-changer for our marketing efforts.</p>
               <p className="font-semibold">James Smith</p>
               <p className="text-gray-500">Sales Manager, MarketMakers</p>
             </div>
